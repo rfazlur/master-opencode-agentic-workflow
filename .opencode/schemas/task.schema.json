@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "required": [
+    "task_id",
+    "task_type",
+    "risk",
+    "complexity",
+    "affected_layer",
+    "selected_agents"
+  ]
+}

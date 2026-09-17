@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "required": [
+    "decision",
+    "evidence",
+    "human_approval_required"
+  ],
+  "properties": {
+    "decision": {
+      "enum": [
+        "PASS",
+        "PASS_WITH_RISK",
+        "BLOCKED"
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "required": [
+    "task_type",
+    "risk",
+    "complexity",
+    "affected_layer",
+    "selected_agents",
+    "model_tier",
+    "required_evidence"
+  ]
+}
